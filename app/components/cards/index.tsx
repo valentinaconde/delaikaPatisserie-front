@@ -1,8 +1,8 @@
 import React from "react";
 import styles from './cards.module.scss'
-
+import { Recipes } from '@/app/interfaces/recipes.interface'
 interface IProp {
-    recipes: Array<{ title: string, description: string, image: string }>
+    recipes: Recipes[]
 }
 
 export default function Cards({ recipes }: IProp) {
