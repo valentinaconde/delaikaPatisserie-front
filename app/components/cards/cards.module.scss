@@ -1,0 +1,37 @@
+@import '../../globals.scss';
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.title{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,.75);
+    font: $fontFamily;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+    align-self: center;
+}
+.titleLetters{
+    padding-left: 20%;
+}
+
+.image{
+    width: 100%;
+    display: block;
+    vertical-align: middle;
+}
+
+.article{
+    width: 300px;
+    display: inline-block;
+    margin: 10px;
+    max-width: 220px;
+    display: block;
+    vertical-align: middle;
+    position: relative;
+}
