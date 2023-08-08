@@ -14,8 +14,10 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import styles from './navbar.module.scss';
+import { Link } from '@mui/material';
 // REVISAR ESTE COMPONENTE
-const pages = ['Masas', 'Tartas', 'Postres'];
+
+const pages = ['masas', 'tartas', 'postres'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 function Navbar() {
@@ -91,7 +93,7 @@ function Navbar() {
             >
               {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu} >
-                  <Typography textAlign="center" >{page}</Typography >
+                  <Typography textAlign="center">{page}</Typography >
                 </MenuItem>
               ))}
             </Menu>
@@ -122,6 +124,7 @@ function Navbar() {
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: 'white', display: 'block'}}
                 className={styles.menuAppbar}
+                href={`/${page}`}
               >
                 {page}
               </Button>
