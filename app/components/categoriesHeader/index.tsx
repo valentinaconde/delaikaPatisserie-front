@@ -1,12 +1,11 @@
 import React from "react";
-import Cards from "../cards";
-import styles from './categories.module.scss'
+import styles from './categoriesHeader.module.scss'
+
 interface IProp {
     name: string;
-    recipes: Array<{ title: string, description: string, image: string }>
 }
 
-export default function Category({ name, recipes }: IProp) {
+export default function CategoriesHeader({ name }: IProp) {
 
     return (
         <div>
@@ -15,8 +14,6 @@ export default function Category({ name, recipes }: IProp) {
                     {name}
                 </h1>
             </div>
-
-            <Cards recipes={recipes} />
         </div>
     )
 }
