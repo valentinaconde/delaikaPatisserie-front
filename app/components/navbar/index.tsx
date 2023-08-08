@@ -15,6 +15,8 @@ import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import styles from './navbar.module.scss';
 import { Link } from '@mui/material';
+import { red } from '@mui/material/colors';
+import global from '../../styles/global.module.scss';
 // REVISAR ESTE COMPONENTE
 
 const pages = ['masas', 'tartas', 'postres'];
@@ -40,7 +42,10 @@ function Navbar() {
   };
 
   return (
-    <AppBar position="static" className={styles.appBar}>
+    // TO DO: revisar estilos pasar a SX los de SCSS
+    <AppBar position="static" className={styles.appBar} sx={{
+      backgroundColor: 'rgb(216, 152, 152)',
+    }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
