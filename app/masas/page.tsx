@@ -1,9 +1,10 @@
 import React from "react";
-import Category from "../components/categories";
+import CategoriesHeader from "../components/categoriesHeader";
+import Cards from "../components/cards";
 
 export default function Masas() {
 
-//HARCODED
+    //HARCODED
     let recipes = [
         {
             title: "Recipe 1 MASAS",
@@ -23,7 +24,8 @@ export default function Masas() {
     ]
     return (
         <div>
-       <Category name="masas" recipes={recipes} />
+            <CategoriesHeader name="masas" />
+            <Cards recipes={recipes} />
         </div>
     )
 }
