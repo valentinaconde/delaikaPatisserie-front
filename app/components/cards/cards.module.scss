@@ -1,3 +1,5 @@
+@import '../../globals.scss';
+
 .container{
     display: flex;
     justify-content: space-around;
@@ -8,7 +10,7 @@
     bottom: 0;
     width: 100%;
     background-color: rgba(0,0,0,.75);
-    font: 0.9em/1.1em FuturaMdBTMedium,sans-serif;
+    font: $fontFamily;
     font-weight: 400;
     text-transform: uppercase;
     color: #fff;

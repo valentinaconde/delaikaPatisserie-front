@@ -1,5 +1,7 @@
+@import '../../globals.scss';
+
 .title{
-    font:  FuturaMdBTMedium,sans-serif;
+    font: $fontFamily;
     font-weight: 300;
     text-transform: uppercase;
     font-size: 20px;
