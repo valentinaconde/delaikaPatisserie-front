@@ -19,7 +19,6 @@ import { red } from '@mui/material/colors';
 import global from '../../styles/global.module.scss';
 // REVISAR ESTE COMPONENTE
 
-const pages = ['masas', 'tartas', 'postres'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 function Navbar() {
@@ -96,11 +95,6 @@ function Navbar() {
                 display: { xs: 'block', md: 'none' },
               }}
             >
-              {pages.map((page) => (
-                <MenuItem key={page} onClick={handleCloseNavMenu} >
-                  <Typography textAlign="center">{page}</Typography >
-                </MenuItem>
-              ))}
             </Menu>
           </Box>
           <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
@@ -123,17 +117,7 @@ function Navbar() {
             DELAIKA
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
-            {pages.map((page) => (
-              <Button
-                key={page}
-                onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: 'white', display: 'block'}}
-                className={styles.menuAppbar}
-                href={`/${page}`}
-              >
-                {page}
-              </Button>
-            ))}
+          
           </Box>
 
           <Box sx={{ flexGrow: 0 }}>
