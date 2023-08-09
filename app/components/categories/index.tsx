@@ -14,7 +14,7 @@ export default function Categories() {
       <h1>CATEGORIAS</h1>
       {categories.map((category, index) => (
         <a href={`/categorias/${category.id}`} key={index} className={category.id === Number(params.id) ?
-          `${styles.category} ${styles.category2}` : styles.category}>{category.name}</a>
+          `${styles.category} ${styles.categorySelected}` : styles.category}>{category.name}</a>
       ))
       }
     </div>
