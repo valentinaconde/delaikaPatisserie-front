@@ -2,7 +2,7 @@ import React from "react";
 import styles from './categoriesHeader.module.scss'
 
 interface IProp {
-    name: string;
+    name: string | undefined;
 }
 
 export default function CategoriesHeader({ name }: IProp) {

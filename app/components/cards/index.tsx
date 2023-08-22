@@ -13,7 +13,7 @@ export default function Cards({ recipes }: IProp) {
                 recipes.map((recipe) => {
                     return (
                         <article className={styles.article}>
-                            <a href="#">
+                            <a href={`/categorias/${recipe.categoryId}/${recipe.id}`}>
                             <span className={styles.title}>
                                <h4 className={styles.titleLetters}>{recipe.title}</h4> 
                             </span>
