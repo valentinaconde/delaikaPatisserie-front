@@ -17,6 +17,10 @@ import styles from './navbar.module.scss';
 import { Link } from '@mui/material';
 import { red } from '@mui/material/colors';
 import global from '../../styles/global.module.scss';
+import Categories from '../categories';
+import categories from '@/app/utils/categories.utils';
+import { useParams } from 'next/navigation';
+
 // REVISAR ESTE COMPONENTE
 
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
@@ -24,6 +28,8 @@ const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 function Navbar() {
   const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(null);
   const [anchorElUser, setAnchorElUser] = React.useState<null | HTMLElement>(null);
+
+  const params = useParams()
 
   const handleOpenNavMenu = (event: React.MouseEvent<HTMLElement>) => {
     setAnchorElNav(event.currentTarget);
@@ -95,6 +101,12 @@ function Navbar() {
                 display: { xs: 'block', md: 'none' },
               }}
             >
+              {categories.map((category, index) => (
+                <MenuItem key={index} onClick={handleCloseNavMenu} className={(category.id === Number(params.id) && !params.recipe) && styles.categorySelected}>
+                  <a href={`/categorias/${category.id}`} key={index} className={styles.category}>{category.name}</a>
+                </MenuItem>
+              ))
+              }
             </Menu>
           </Box>
           <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
@@ -102,7 +114,7 @@ function Navbar() {
             variant="h5"
             noWrap
             component="a"
-            href=""
+            href="/"
             sx={{
               mr: 2,
               display: { xs: 'flex', md: 'none' },
@@ -117,7 +129,7 @@ function Navbar() {
             DELAIKA
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
-          
+
           </Box>
 
           <Box sx={{ flexGrow: 0 }}>
@@ -141,7 +153,7 @@ function Navbar() {
               }}
               open={Boolean(anchorElUser)}
               onClose={handleCloseUserMenu}
-              
+
             >
               {settings.map((setting) => (
                 <MenuItem key={setting} onClick={handleCloseUserMenu}>

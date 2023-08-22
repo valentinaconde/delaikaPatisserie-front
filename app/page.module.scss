@@ -7,3 +7,10 @@
     text-transform: uppercase;
     line-height: 2.5;
 }
+
+// TO DO revisar el max width
+@media screen and (max-width: 768px) {
+    .categories{
+        display: none;
+    }
+}

@@ -19,7 +19,7 @@ export default function RootLayout({
 
  <div className={styles.container}>
  <Categories />
- <div>{children}</div>
+ <div className={styles.children}>{children}</div>
  </div>
      
   )

@@ -8,6 +8,8 @@
    min-width: 250px;
    max-width: 250px;
    margin-top: 30px;
+   height: 200vh;
+   
 }
 
 .category{
@@ -20,3 +22,11 @@
     font-weight: bold;
     background-color: rgb(241, 241, 241);
 }
+
+@media screen and (max-width: 768px) {
+    .container{
+        display: none;
+    }
+}
+
+    

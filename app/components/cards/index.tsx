@@ -1,14 +1,16 @@
 import React from "react";
 import styles from './cards.module.scss'
 import { Recipes } from '@/app/interfaces/recipes.interface'
+import { useParams } from "next/navigation";
 interface IProp {
     recipes: Recipes[]
 }
 
 export default function Cards({ recipes }: IProp) {
 
+    let params = useParams()
     return (
-        <div className={styles.container}>
+        <div className={params.id ? styles.container : styles.containerCenter}>
             {
                 recipes.map((recipe) => {
                     return (
