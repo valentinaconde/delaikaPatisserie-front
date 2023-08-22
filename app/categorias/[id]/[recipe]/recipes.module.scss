@@ -1,0 +1,42 @@
+@import '../../../globals.scss';
+
+.image {
+    width: 400px;
+}
+
+.titleIngredients{
+    font: $fontFamily;
+    font-weight: 300;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.ingredients {
+    display: flex;
+}
+
+.infoIngredients {
+    margin-left: 20px;
+}
+
+.recipeContainer {
+    margin: 20px;
+}
+
+.steps{
+    width: 75vw;
+    margin: 20px;
+    border-top: 1px solid grey;
+}
+
+.list{
+    list-style: none;
+    padding: 0;
+    line-height: 2.5;
+    margin-bottom: 20px;
+}
+
+// TO DO revisar como hacer para tachar lo chequeado
+.checked{
+    text-decoration: overline;
+}
