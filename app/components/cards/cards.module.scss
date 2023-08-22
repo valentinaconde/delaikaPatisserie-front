@@ -1,14 +1,15 @@
 @import '../../globals.scss';
 
-.container{
+.container, .containerCenter{
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+
 }
 
 .title{
     position: absolute;
     bottom: 0;
-    width: 100%;
+    width: 200px;
     background-color: rgba(0,0,0,.75);
     font: $fontFamily;
     font-weight: 400;
@@ -21,7 +22,7 @@
 }
 
 .image{
-    width: 100%;
+    width: 200px;
     display: block;
     vertical-align: middle;
 }
@@ -34,4 +35,23 @@
     display: block;
     vertical-align: middle;
     position: relative;
+}
+
+
+@media screen and (max-width: 768px) {
+    .containerCenter{
+        justify-content: center;
+    }
+
+    .article{
+        width: 150px;
+    }
+
+    .title{
+        width: 150px;
+    }
+
+    .image{
+        width: 150px;
+    }
 }
