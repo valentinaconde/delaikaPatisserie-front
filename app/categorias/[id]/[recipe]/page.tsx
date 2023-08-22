@@ -28,10 +28,9 @@ export default function Recipe() {
                 <img src={recipe?.image} alt={recipe?.title} className={styles.image} />
                 <div className={styles.infoIngredients}>
                     <h1 className={styles.titleIngredients}>Ingredientes</h1>
-                    <ul>
+                    <ul className={styles.list}>
                         {recipe?.ingredients?.map((ingredient, index) => (
-                            <li className={styles.list} key={index}>
-                                <Checkbox />
+                            <li className={styles.items} key={index}>
                                 {ingredient.quantity}{ingredient.unit} {ingredient.name}
                             </li>
                         ))}
@@ -41,8 +40,7 @@ export default function Recipe() {
             <div className={styles.steps}>
                 <h1 className={styles.titleIngredients}>Pasos</h1>
                 {recipe?.steps?.map((step, index) => (
-                    <li className={styles.list}  key={index}>
-                        <Checkbox />
+                    <li className={styles.items}  key={index}>
                         {step.description}
                     </li>
                 ))}
