@@ -1,60 +1,409 @@
 {
     "data": [
         {
+            "id": 1,
             "categoryId": 1,
             "title": "Recipe 1 MASAS",
             "description": "Description 1",
-            "image": "https://via.placeholder.com/150"
+            "image": "https://source.unsplash.com/random",
+            "ingredients": [
+                {
+                    "id": 1,
+                    "name": "Harina",
+                    "quantity": 500,
+                    "unit": "gr"
+                },
+                {
+                    "id": 2,
+                    "name": "Levadura",
+                    "quantity": 50,
+                    "unit": "gr"
+                },
+                {
+                    "id": 3,
+                    "name": "Azucar",
+                    "quantity": 50,
+                    "unit": "gr"
+                }
+            ],
+             "steps": [
+                {
+                    "id": 1,
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor justo pretium sapien ultrices vestibulum. Quisque odio lacus, suscipit eu posuere sed, fringilla at dui. Aenean accumsan tristique tincidunt. Mauris non erat id erat rhoncus varius. Integer in tellus nisl. Ut tempus at nisi non tempor. Aliquam ac purus at arcu porttitor pretium."
+                },
+                {
+                    "id": 2,
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor justo pretium sapien ultrices vestibulum. Quisque odio lacus, suscipit eu posuere sed, fringilla at dui. Aenean accumsan tristique tincidunt. Mauris non erat id erat rhoncus varius. Integer in tellus nisl. Ut tempus at nisi non tempor. Aliquam ac purus at arcu porttitor pretium."
+                },
+                {
+                    "id": 3,
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor justo pretium sapien ultrices vestibulum. Quisque odio lacus, suscipit eu posuere sed, fringilla at dui. Aenean accumsan tristique tincidunt. Mauris non erat id erat rhoncus varius. Integer in tellus nisl. Ut tempus at nisi non tempor. Aliquam ac purus at arcu porttitor pretium."
+                }  
+            ]
         },
         {
+            "id": 2,
             "categoryId": 1,
             "title": "Recipe 2 MASAS",
             "description": "Description 2",
-            "image": "https://via.placeholder.com/150"
+            "image": "https://source.unsplash.com/random",
+            "ingredients": [
+                {
+                    "id": 1,
+                    "name": "Harina",
+                    "quantity": 500,
+                    "unit": "gr"
+                },
+                {
+                    "id": 2,
+                    "name": "Levadura",
+                    "quantity": 50,
+                    "unit": "gr"
+                },
+                {
+                    "id": 3,
+                    "name": "Azucar",
+                    "quantity": 50,
+                    "unit": "gr"
+                }
+            ],
+             "steps": [
+                {
+                    "id": 1,
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor justo pretium sapien ultrices vestibulum. Quisque odio lacus, suscipit eu posuere sed, fringilla at dui. Aenean accumsan tristique tincidunt. Mauris non erat id erat rhoncus varius. Integer in tellus nisl. Ut tempus at nisi non tempor. Aliquam ac purus at arcu porttitor pretium."
+                },
+                {
+                    "id": 2,
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor justo pretium sapien ultrices vestibulum. Quisque odio lacus, suscipit eu posuere sed, fringilla at dui. Aenean accumsan tristique tincidunt. Mauris non erat id erat rhoncus varius. Integer in tellus nisl. Ut tempus at nisi non tempor. Aliquam ac purus at arcu porttitor pretium."
+                },
+                {
+                    "id": 3,
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor justo pretium sapien ultrices vestibulum. Quisque odio lacus, suscipit eu posuere sed, fringilla at dui. Aenean accumsan tristique tincidunt. Mauris non erat id erat rhoncus varius. Integer in tellus nisl. Ut tempus at nisi non tempor. Aliquam ac purus at arcu porttitor pretium."
+                }  
+            ]
         },
         {
+            "id": 3,
             "categoryId": 1,
             "title": "Recipe 3 MASAS",
             "description": "Description 3",
-            "image": "https://via.placeholder.com/150"
+            "image": "https://source.unsplash.com/random",
+            "ingredients": [
+                {
+                    "id": 1,
+                    "name": "Harina",
+                    "quantity": 500,
+                    "unit": "gr"
+                },
+                {
+                    "id": 2,
+                    "name": "Levadura",
+                    "quantity": 50,
+                    "unit": "gr"
+                },
+                {
+                    "id": 3,
+                    "name": "Azucar",
+                    "quantity": 50,
+                    "unit": "gr"
+                }
+            ],
+             "steps": [
+                {
+                    "id": 1,
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor justo pretium sapien ultrices vestibulum. Quisque odio lacus, suscipit eu posuere sed, fringilla at dui. Aenean accumsan tristique tincidunt. Mauris non erat id erat rhoncus varius. Integer in tellus nisl. Ut tempus at nisi non tempor. Aliquam ac purus at arcu porttitor pretium."
+                },
+                {
+                    "id": 2,
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor justo pretium sapien ultrices vestibulum. Quisque odio lacus, suscipit eu posuere sed, fringilla at dui. Aenean accumsan tristique tincidunt. Mauris non erat id erat rhoncus varius. Integer in tellus nisl. Ut tempus at nisi non tempor. Aliquam ac purus at arcu porttitor pretium."
+                },
+                {
+                    "id": 3,
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor justo pretium sapien ultrices vestibulum. Quisque odio lacus, suscipit eu posuere sed, fringilla at dui. Aenean accumsan tristique tincidunt. Mauris non erat id erat rhoncus varius. Integer in tellus nisl. Ut tempus at nisi non tempor. Aliquam ac purus at arcu porttitor pretium."
+                }  
+            ]
         },
         {
+            "id": 4,
             "categoryId": 2,
             "title": "Recipe 1 POSTRES",
             "description": "Description 1",
-            "image": "https://via.placeholder.com/150"
+            "image": "https://source.unsplash.com/random",
+            "ingredients": [
+                {
+                    "id": 1,
+                    "name": "Harina",
+                    "quantity": 500,
+                    "unit": "gr"
+                },
+                {
+                    "id": 2,
+                    "name": "Levadura",
+                    "quantity": 50,
+                    "unit": "gr"
+                },
+                {
+                    "id": 3,
+                    "name": "Azucar",
+                    "quantity": 50,
+                    "unit": "gr"
+                },
+                {
+                    "id": 4,
+                    "name": "Harina",
+                    "quantity": 500,
+                    "unit": "gr"
+                },
+                {
+                    "id": 5,
+                    "name": "Levadura",
+                    "quantity": 50,
+                    "unit": "gr"
+                },
+                {
+                    "id": 6,
+                    "name": "Azucar",
+                    "quantity": 50,
+                    "unit": "gr"
+                },
+                {
+                    "id": 71,
+                    "name": "Harina",
+                    "quantity": 500,
+                    "unit": "gr"
+                },
+                {
+                    "id": 8,
+                    "name": "Levadura",
+                    "quantity": 50,
+                    "unit": "gr"
+                },
+                {
+                    "id": 9,
+                    "name": "Azucar",
+                    "quantity": 50,
+                    "unit": "gr"
+                }
+            ],
+             "steps": [
+                {
+                    "id": 1,
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor justo pretium sapien ultrices vestibulum. Quisque odio lacus, suscipit eu posuere sed, fringilla at dui. Aenean accumsan tristique tincidunt. Mauris non erat id erat rhoncus varius. Integer in tellus nisl. Ut tempus at nisi non tempor. Aliquam ac purus at arcu porttitor pretium."
+                },
+                {
+                    "id": 2,
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor justo pretium sapien ultrices vestibulum. Quisque odio lacus, suscipit eu posuere sed, fringilla at dui. Aenean accumsan tristique tincidunt. Mauris non erat id erat rhoncus varius. Integer in tellus nisl. Ut tempus at nisi non tempor. Aliquam ac purus at arcu porttitor pretium."
+                },
+                {
+                    "id": 3,
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor justo pretium sapien ultrices vestibulum. Quisque odio lacus, suscipit eu posuere sed, fringilla at dui. Aenean accumsan tristique tincidunt. Mauris non erat id erat rhoncus varius. Integer in tellus nisl. Ut tempus at nisi non tempor. Aliquam ac purus at arcu porttitor pretium."
+                }  
+            ]
         },
         {
+            "id": 5,
             "categoryId": 2,
             "title": "Recipe 2 POSTRES",
             "description": "Description 2",
-            "image": "https://via.placeholder.com/150"
+            "image": "https://source.unsplash.com/random",
+            "ingredients": [
+                {
+                    "id": 1,
+                    "name": "Harina",
+                    "quantity": 500,
+                    "unit": "gr"
+                },
+                {
+                    "id": 2,
+                    "name": "Levadura",
+                    "quantity": 50,
+                    "unit": "gr"
+                },
+                {
+                    "id": 3,
+                    "name": "Azucar",
+                    "quantity": 50,
+                    "unit": "gr"
+                }
+            ],
+             "steps": [
+                {
+                    "id": 1,
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor justo pretium sapien ultrices vestibulum. Quisque odio lacus, suscipit eu posuere sed, fringilla at dui. Aenean accumsan tristique tincidunt. Mauris non erat id erat rhoncus varius. Integer in tellus nisl. Ut tempus at nisi non tempor. Aliquam ac purus at arcu porttitor pretium."
+                },
+                {
+                    "id": 2,
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor justo pretium sapien ultrices vestibulum. Quisque odio lacus, suscipit eu posuere sed, fringilla at dui. Aenean accumsan tristique tincidunt. Mauris non erat id erat rhoncus varius. Integer in tellus nisl. Ut tempus at nisi non tempor. Aliquam ac purus at arcu porttitor pretium."
+                },
+                {
+                    "id": 3,
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor justo pretium sapien ultrices vestibulum. Quisque odio lacus, suscipit eu posuere sed, fringilla at dui. Aenean accumsan tristique tincidunt. Mauris non erat id erat rhoncus varius. Integer in tellus nisl. Ut tempus at nisi non tempor. Aliquam ac purus at arcu porttitor pretium."
+                }  
+            ]
         },
         {
+            "id": 6,
             "categoryId": 2,
             "title": "Recipe 3 POSTRES",
             "description": "Description 3",
-            "image": "https://via.placeholder.com/150"
+            "image": "https://source.unsplash.com/random",
+            "ingredients": [
+                {
+                    "id": 1,
+                    "name": "Harina",
+                    "quantity": 500,
+                    "unit": "gr"
+                },
+                {
+                    "id": 2,
+                    "name": "Levadura",
+                    "quantity": 50,
+                    "unit": "gr"
+                },
+                {
+                    "id": 3,
+                    "name": "Azucar",
+                    "quantity": 50,
+                    "unit": "gr"
+                }
+            ],
+             "steps": [
+                {
+                    "id": 1,
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor justo pretium sapien ultrices vestibulum. Quisque odio lacus, suscipit eu posuere sed, fringilla at dui. Aenean accumsan tristique tincidunt. Mauris non erat id erat rhoncus varius. Integer in tellus nisl. Ut tempus at nisi non tempor. Aliquam ac purus at arcu porttitor pretium."
+                },
+                {
+                    "id": 2,
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor justo pretium sapien ultrices vestibulum. Quisque odio lacus, suscipit eu posuere sed, fringilla at dui. Aenean accumsan tristique tincidunt. Mauris non erat id erat rhoncus varius. Integer in tellus nisl. Ut tempus at nisi non tempor. Aliquam ac purus at arcu porttitor pretium."
+                },
+                {
+                    "id": 3,
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor justo pretium sapien ultrices vestibulum. Quisque odio lacus, suscipit eu posuere sed, fringilla at dui. Aenean accumsan tristique tincidunt. Mauris non erat id erat rhoncus varius. Integer in tellus nisl. Ut tempus at nisi non tempor. Aliquam ac purus at arcu porttitor pretium."
+                }  
+            ]
         },
         {
+            "id": 7,
             "categoryId": 3,
             "title": "Recipe 1 TARTAS",
             "description": "Description 1",
-            "image": "https://via.placeholder.com/150"
+            "image": "https://source.unsplash.com/random",
+            "ingredients": [
+                {
+                    "id": 1,
+                    "name": "Harina",
+                    "quantity": 500,
+                    "unit": "gr"
+                },
+                {
+                    "id": 2,
+                    "name": "Levadura",
+                    "quantity": 50,
+                    "unit": "gr"
+                },
+                {
+                    "id": 3,
+                    "name": "Azucar",
+                    "quantity": 50,
+                    "unit": "gr"
+                }
+            ],
+             "steps": [
+                {
+                    "id": 1,
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor justo pretium sapien ultrices vestibulum. Quisque odio lacus, suscipit eu posuere sed, fringilla at dui. Aenean accumsan tristique tincidunt. Mauris non erat id erat rhoncus varius. Integer in tellus nisl. Ut tempus at nisi non tempor. Aliquam ac purus at arcu porttitor pretium."
+                },
+                {
+                    "id": 2,
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor justo pretium sapien ultrices vestibulum. Quisque odio lacus, suscipit eu posuere sed, fringilla at dui. Aenean accumsan tristique tincidunt. Mauris non erat id erat rhoncus varius. Integer in tellus nisl. Ut tempus at nisi non tempor. Aliquam ac purus at arcu porttitor pretium."
+                },
+                {
+                    "id": 3,
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor justo pretium sapien ultrices vestibulum. Quisque odio lacus, suscipit eu posuere sed, fringilla at dui. Aenean accumsan tristique tincidunt. Mauris non erat id erat rhoncus varius. Integer in tellus nisl. Ut tempus at nisi non tempor. Aliquam ac purus at arcu porttitor pretium."
+                }  
+            ]
         },
         {
+            "id": 8,
             "categoryId": 3,
             "title": "Recipe 2 TARTAS",
             "description": "Description 2",
-            "image": "https://via.placeholder.com/150"
+            "image": "https://source.unsplash.com/random",
+            "ingredients": [
+                {
+                    "id": 1,
+                    "name": "Harina",
+                    "quantity": 500,
+                    "unit": "gr"
+                },
+                {
+                    "id": 2,
+                    "name": "Levadura",
+                    "quantity": 50,
+                    "unit": "gr"
+                },
+                {
+                    "id": 3,
+                    "name": "Azucar",
+                    "quantity": 50,
+                    "unit": "gr"
+                }
+            ],
+             "steps": [
+                {
+                    "id": 1,
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor justo pretium sapien ultrices vestibulum. Quisque odio lacus, suscipit eu posuere sed, fringilla at dui. Aenean accumsan tristique tincidunt. Mauris non erat id erat rhoncus varius. Integer in tellus nisl. Ut tempus at nisi non tempor. Aliquam ac purus at arcu porttitor pretium."
+                },
+                {
+                    "id": 2,
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor justo pretium sapien ultrices vestibulum. Quisque odio lacus, suscipit eu posuere sed, fringilla at dui. Aenean accumsan tristique tincidunt. Mauris non erat id erat rhoncus varius. Integer in tellus nisl. Ut tempus at nisi non tempor. Aliquam ac purus at arcu porttitor pretium."
+                },
+                {
+                    "id": 3,
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor justo pretium sapien ultrices vestibulum. Quisque odio lacus, suscipit eu posuere sed, fringilla at dui. Aenean accumsan tristique tincidunt. Mauris non erat id erat rhoncus varius. Integer in tellus nisl. Ut tempus at nisi non tempor. Aliquam ac purus at arcu porttitor pretium."
+                }  
+            ]
         },
         {
+            "id": 9,
             "categoryId": 3,
             "title": "Recipe 3 TARTAS",
             "description": "Description 3",
-            "image": "https://via.placeholder.com/150"
+            "image": "https://source.unsplash.com/random",
+            "ingredients": [
+                {
+                    "id": 1,
+                    "name": "Harina",
+                    "quantity": 500,
+                    "unit": "gr"
+                },
+                {
+                    "id": 2,
+                    "name": "Levadura",
+                    "quantity": 50,
+                    "unit": "gr"
+                },
+                {
+                    "id": 3,
+                    "name": "Azucar",
+                    "quantity": 50,
+                    "unit": "gr"
+                }
+            ],
+             "steps": [
+                {
+                    "id": 1,
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor justo pretium sapien ultrices vestibulum. Quisque odio lacus, suscipit eu posuere sed, fringilla at dui. Aenean accumsan tristique tincidunt. Mauris non erat id erat rhoncus varius. Integer in tellus nisl. Ut tempus at nisi non tempor. Aliquam ac purus at arcu porttitor pretium."
+                },
+                {
+                    "id": 2,
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor justo pretium sapien ultrices vestibulum. Quisque odio lacus, suscipit eu posuere sed, fringilla at dui. Aenean accumsan tristique tincidunt. Mauris non erat id erat rhoncus varius. Integer in tellus nisl. Ut tempus at nisi non tempor. Aliquam ac purus at arcu porttitor pretium."
+                },
+                {
+                    "id": 3,
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor justo pretium sapien ultrices vestibulum. Quisque odio lacus, suscipit eu posuere sed, fringilla at dui. Aenean accumsan tristique tincidunt. Mauris non erat id erat rhoncus varius. Integer in tellus nisl. Ut tempus at nisi non tempor. Aliquam ac purus at arcu porttitor pretium."
+                }  
+            ]
         }
     ]
-
-
 }
